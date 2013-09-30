@@ -1,0 +1,72 @@
+
+/*maze
+ *
+| |_|_|_|_|_|_|_|
+| |_|_|_|_|_|_|_|
+|_ _ _  |_|_|_|_|
+|_|_|_| |_|_|_|_|          ^
+|_|_|  _|_|_|_|_|          Up  
+|_|_|+|_|_|_|_|_|   < Left    Right >
+|_|_|    ± _ _  |         down
+|_|_|_|_|_|_|_| |
+
+              
+ * 
+ * Variables
+ * 
+ * int current_X = 0 to 7
+ * int current_Y = 0 to 7
+ * 
+ * int direction = 0 to 4
+ *
+ * 0 = up
+ * 1 = right
+ * 2 = left
+ * 3 = down
+ * i did this so when direction change is needed
+ * it would be simply
+ * direction++ for right 
+ * direction-- for left
+ * 
+ * bool isExitFound
+ * 
+ * Functions
+ * 
+ * bool SensorFront(X, Y, direction)
+ * 
+ * bool SensorRight(X, Y, direction)
+ * 
+ * void TurnRight;
+ * void TurnLeft;
+ * 
+ */
+ 
+ //			cout << "ERR" <<endl;
+			
+		
+ 	//if ( !Robot.SensorFront() )
+ 		//	{
+ 			//	Robot.DriveForward(); //WE INCREMENT MAZE[x][y] HERE ONLY
+			//	Robot.CurrentPosition();
+			//}
+	
+/*
+Robot.CurrentPosition();
+
+	if ( !Robot.SensorRight() )
+			{
+				Robot.TurnRight(); //AFTER IT TURNS RIGHT, it needs to set a boolean -- otherwise in a blank spacve, it will spin
+				Robot.CurrentPosition();
+			}
+	else if ( Robot.SensorFront() && /*!Robot.SensorRight() / )
+ 			{
+ 				Robot.TurnLeft();
+ 				Robot.CurrentPosition();
+			}
+ 	else 
+ 			{
+ 				Robot.DriveForward(); //WE INCREMENT MAZE[x][y] HERE ONLY
+				Robot.CurrentPosition();
+			}
+*/
+ 
